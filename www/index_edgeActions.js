@@ -169,7 +169,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindSymbolAction(compId, symbolName, "creationComplete", function(sym, e) {
          // insert code to be run when the symbol is created here
-         yepnope({nope:['js/jquery-ui-1.10.3.custom.min.js'], complete: init});
+         yepnope({nope:['jquery-ui-1.10.3.custom.min.js','jquery.ui.touch-punch.min.js'], complete: init});
          
          function init(){
          
